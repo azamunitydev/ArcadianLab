@@ -100,6 +100,23 @@ namespace ArcadianLab.DemoGame.Player.Unit
             }
 #endif
         }
+        private void HandleHorizontalMovement(float delta)
+        {
+            float targetX = startPlayerX + delta;
+
+            float leftLimit = centerPOS.x - horizontalMoveOffset;
+            float rightLimit = centerPOS.x + horizontalMoveOffset;
+
+            targetX = Mathf.Clamp(targetX, leftLimit, rightLimit);
+
+            Vector3 targetPos = new Vector3(
+                targetX,
+                transform.position.y,
+                transform.position.z
+            );
+
+            transform.position = Vector3.Lerp(transform.position, targetPos, 0.2f);
+        }
         private void UpdateTrailFollow()
         {
             if (trail == null || trail.Count == 0) return;
