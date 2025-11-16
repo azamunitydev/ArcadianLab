@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbd51166d5bcdd49b987ce01dc84539, type: 3}
+  m_Name: Pool Data
+  m_EditorClassIdentifier: 
+  items:
+  - PoolId: Plane
+    Capacity: 5
+    Item: {fileID: 4616731113451745361, guid: 9a22177af104be8478cdedd4d6c89ad0, type: 3}
