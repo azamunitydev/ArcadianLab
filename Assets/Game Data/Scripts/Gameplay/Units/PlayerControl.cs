@@ -50,6 +50,7 @@ namespace ArcadianLab.DemoGame.Player.Unit
         }
         private void HandleInput()
         {
+#if UNITY_EDITOR
             if (Input.GetMouseButtonDown(0))
             {
                 isDragging = true;
@@ -68,6 +69,36 @@ namespace ArcadianLab.DemoGame.Player.Unit
                 transform.position = Vector3.Lerp(transform.position, targetPos, 0.2f);
             }
             if (Input.GetMouseButtonUp(0)) isDragging = false;
+#elif UNITY_ANDROID
+            if (Input.touchCount > 0)
+            {
+                Touch touch = Input.GetTouch(0);
+
+                switch (touch.phase)
+                {
+                    case TouchPhase.Began:
+                        isDragging = true;
+                        startMouseX = touch.position.x;   // reuse same variables
+                        startPlayerX = transform.position.x;
+                        GenericMethods.KillTween(moveTween);
+                        break;
+
+                    case TouchPhase.Moved:
+                    case TouchPhase.Stationary:
+                        if (isDragging)
+                        {
+                            float delta = (touch.position.x - startMouseX) * dragSensitivity;
+                            HandleHorizontalMovement(delta);
+                        }
+                        break;
+
+                    case TouchPhase.Ended:
+                    case TouchPhase.Canceled:
+                        isDragging = false;
+                        break;
+                }
+            }
+#endif
         }
         private void UpdateTrailFollow()
         {

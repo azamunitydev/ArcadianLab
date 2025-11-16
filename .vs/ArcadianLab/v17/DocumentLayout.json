@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projects\\Working Projects\\ArcadianLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|D:\\Projects\\Working Projects\\ArcadianLab\\assets\\game data\\scripts\\gameplay\\units\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|solutionrelative:assets\\game data\\scripts\\gameplay\\units\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|d:\\projects\\working projects\\arcadianlab\\assets\\game data\\scripts\\utilities\\soundhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|solutionrelative:assets\\game data\\scripts\\utilities\\soundhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|solutionrelative:assets\\game data\\scripts\\gameplay\\units\\trail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|d:\\projects\\working projects\\arcadianlab\\assets\\game data\\scripts\\gameplay\\views\\winfailpanelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|D:\\Projects\\Working Projects\\ArcadianLab\\assets\\game data\\scripts\\gameplay\\views\\winfailpanelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|solutionrelative:assets\\game data\\scripts\\gameplay\\views\\winfailpanelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|D:\\Projects\\Working Projects\\ArcadianLab\\assets\\game data\\scripts\\gameplay\\controllers\\playerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|solutionrelative:assets\\game data\\scripts\\gameplay\\controllers\\playerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|D:\\Projects\\Working Projects\\ArcadianLab\\assets\\game data\\scripts\\gameplay\\units\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|solutionrelative:assets\\game data\\scripts\\gameplay\\units\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6287EFE-6935-48A9-2015-207B0674ED47}|Assembly-CSharp.csproj|D:\\Projects\\Working Projects\\ArcadianLab\\assets\\game data\\scripts\\gameplay\\units\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SoundHandler.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Utilities\\SoundHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Utilities\\SoundHandler.cs",
@@ -115,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WinFailPanelView.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Views\\WinFailPanelView.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Gameplay\\Views\\WinFailPanelView.cs",
@@ -123,12 +123,11 @@
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Views\\WinFailPanelView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:51:34.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T08:51:34.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Controllers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Gameplay\\Controllers\\GameManager.cs",
@@ -136,12 +135,11 @@
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Controllers\\GameManager.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAowBQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:26:24.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T08:26:24.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Trail.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Units\\Trail.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\Trail.cs",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\Trail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T06:46:22.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T06:46:22.96Z"
             },
             {
               "$type": "Document",
@@ -162,25 +159,24 @@
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\Interactable.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAowDUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T16:42:42.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T16:42:42.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PlayerControl.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Units\\PlayerControl.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\PlayerControl.cs",
               "ToolTip": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Units\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\PlayerControl.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAywHYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T14:46:39.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerHandler.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Controllers\\PlayerHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Gameplay\\Controllers\\PlayerHandler.cs",
@@ -188,12 +184,11 @@
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Controllers\\PlayerHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:06:43.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T14:06:43.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Plane.cs",
               "DocumentMoniker": "D:\\Projects\\Working Projects\\ArcadianLab\\Assets\\Game Data\\Scripts\\Gameplay\\Units\\Plane.cs",
               "RelativeDocumentMoniker": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\Plane.cs",
@@ -201,8 +196,7 @@
               "RelativeToolTip": "Assets\\Game Data\\Scripts\\Gameplay\\Units\\Plane.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAA+wEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T12:27:22.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:27:22.7Z"
             },
             {
               "$type": "Document",
